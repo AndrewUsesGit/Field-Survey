@@ -18,6 +18,8 @@ class FieldSurveyViewController: UIViewController, UITabBarDelegate, UITableView
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.title = "Field Survey"
+        
         dateFormatter.dateStyle = .medium
         dateFormatter.timeStyle = .medium
         // Do any additional setup after loading the view.
