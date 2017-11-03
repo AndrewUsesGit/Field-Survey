@@ -11,6 +11,11 @@
 		0F0669581FAA2A8900FBA8D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F0669561FAA2A8900FBA8D8 /* Main.storyboard */; };
 		0F06695A1FAA2A8900FBA8D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F0669591FAA2A8900FBA8D8 /* Assets.xcassets */; };
 		0F06695D1FAA2A8900FBA8D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F06695B1FAA2A8900FBA8D8 /* LaunchScreen.storyboard */; };
+		0F0669661FAA3C0400FBA8D8 /* field_observations.json in Resources */ = {isa = PBXBuildFile; fileRef = 0F0669651FAA3C0400FBA8D8 /* field_observations.json */; };
+		0F0669681FAA515B00FBA8D8 /* Classification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0669671FAA515B00FBA8D8 /* Classification.swift */; };
+		0F06696A1FAA555300FBA8D8 /* FieldObservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0669691FAA555300FBA8D8 /* FieldObservation.swift */; };
+		0F06696C1FACEB8400FBA8D8 /* ObservationJSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F06696B1FACEB8400FBA8D8 /* ObservationJSONParser.swift */; };
+		0F06696E1FACF6C700FBA8D8 /* ObservationJSONLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F06696D1FACF6C700FBA8D8 /* ObservationJSONLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		0F0669591FAA2A8900FBA8D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F06695C1FAA2A8900FBA8D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0F06695E1FAA2A8900FBA8D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F0669651FAA3C0400FBA8D8 /* field_observations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = field_observations.json; sourceTree = "<group>"; };
+		0F0669671FAA515B00FBA8D8 /* Classification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classification.swift; sourceTree = "<group>"; };
+		0F0669691FAA555300FBA8D8 /* FieldObservation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldObservation.swift; sourceTree = "<group>"; };
+		0F06696B1FACEB8400FBA8D8 /* ObservationJSONParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservationJSONParser.swift; sourceTree = "<group>"; };
+		0F06696D1FACF6C700FBA8D8 /* ObservationJSONLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservationJSONLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +62,7 @@
 		0F0669511FAA2A8900FBA8D8 /* Field Survey */ = {
 			isa = PBXGroup;
 			children = (
+				0F0669641FAA3BDA00FBA8D8 /* Model */,
 				0F0669521FAA2A8900FBA8D8 /* AppDelegate.swift */,
 				0F0669561FAA2A8900FBA8D8 /* Main.storyboard */,
 				0F0669591FAA2A8900FBA8D8 /* Assets.xcassets */,
@@ -59,6 +70,18 @@
 				0F06695E1FAA2A8900FBA8D8 /* Info.plist */,
 			);
 			path = "Field Survey";
+			sourceTree = "<group>";
+		};
+		0F0669641FAA3BDA00FBA8D8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0F0669671FAA515B00FBA8D8 /* Classification.swift */,
+				0F0669651FAA3C0400FBA8D8 /* field_observations.json */,
+				0F0669691FAA555300FBA8D8 /* FieldObservation.swift */,
+				0F06696B1FACEB8400FBA8D8 /* ObservationJSONParser.swift */,
+				0F06696D1FACF6C700FBA8D8 /* ObservationJSONLoader.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F06695D1FAA2A8900FBA8D8 /* LaunchScreen.storyboard in Resources */,
+				0F0669661FAA3C0400FBA8D8 /* field_observations.json in Resources */,
 				0F06695A1FAA2A8900FBA8D8 /* Assets.xcassets in Resources */,
 				0F0669581FAA2A8900FBA8D8 /* Main.storyboard in Resources */,
 			);
@@ -134,6 +158,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F0669531FAA2A8900FBA8D8 /* AppDelegate.swift in Sources */,
+				0F06696C1FACEB8400FBA8D8 /* ObservationJSONParser.swift in Sources */,
+				0F06696E1FACF6C700FBA8D8 /* ObservationJSONLoader.swift in Sources */,
+				0F06696A1FAA555300FBA8D8 /* FieldObservation.swift in Sources */,
+				0F0669681FAA515B00FBA8D8 /* Classification.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
