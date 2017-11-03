@@ -24,7 +24,7 @@ class ObservationJSONParser {
             if let observations = root["observations"] as? [Any]{
                 for observation in observations{
                     if let observation = observation as? [String: String]{
-                        if  let classification = observation["observation"],
+                        if  let classification = observation["classification"],
                             let title = observation["title"],
                             let description = observation["description"],
                             let dateString = observation["date"],

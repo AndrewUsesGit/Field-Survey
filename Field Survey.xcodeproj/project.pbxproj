@@ -16,6 +16,9 @@
 		0F06696A1FAA555300FBA8D8 /* FieldObservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0669691FAA555300FBA8D8 /* FieldObservation.swift */; };
 		0F06696C1FACEB8400FBA8D8 /* ObservationJSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F06696B1FACEB8400FBA8D8 /* ObservationJSONParser.swift */; };
 		0F06696E1FACF6C700FBA8D8 /* ObservationJSONLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F06696D1FACF6C700FBA8D8 /* ObservationJSONLoader.swift */; };
+		0F0669701FACFD1B00FBA8D8 /* FieldSurveyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F06696F1FACFD1B00FBA8D8 /* FieldSurveyViewController.swift */; };
+		0F0669721FACFD6100FBA8D8 /* FieldSurveyDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0669711FACFD6100FBA8D8 /* FieldSurveyDetailViewController.swift */; };
+		0F0669741FAD0E1800FBA8D8 /* FieldStudyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0669731FAD0E1800FBA8D8 /* FieldStudyTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		0F0669691FAA555300FBA8D8 /* FieldObservation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldObservation.swift; sourceTree = "<group>"; };
 		0F06696B1FACEB8400FBA8D8 /* ObservationJSONParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservationJSONParser.swift; sourceTree = "<group>"; };
 		0F06696D1FACF6C700FBA8D8 /* ObservationJSONLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservationJSONLoader.swift; sourceTree = "<group>"; };
+		0F06696F1FACFD1B00FBA8D8 /* FieldSurveyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldSurveyViewController.swift; sourceTree = "<group>"; };
+		0F0669711FACFD6100FBA8D8 /* FieldSurveyDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldSurveyDetailViewController.swift; sourceTree = "<group>"; };
+		0F0669731FAD0E1800FBA8D8 /* FieldStudyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldStudyTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +74,9 @@
 				0F0669591FAA2A8900FBA8D8 /* Assets.xcassets */,
 				0F06695B1FAA2A8900FBA8D8 /* LaunchScreen.storyboard */,
 				0F06695E1FAA2A8900FBA8D8 /* Info.plist */,
+				0F06696F1FACFD1B00FBA8D8 /* FieldSurveyViewController.swift */,
+				0F0669711FACFD6100FBA8D8 /* FieldSurveyDetailViewController.swift */,
+				0F0669731FAD0E1800FBA8D8 /* FieldStudyTableViewCell.swift */,
 			);
 			path = "Field Survey";
 			sourceTree = "<group>";
@@ -157,9 +166,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F0669741FAD0E1800FBA8D8 /* FieldStudyTableViewCell.swift in Sources */,
 				0F0669531FAA2A8900FBA8D8 /* AppDelegate.swift in Sources */,
 				0F06696C1FACEB8400FBA8D8 /* ObservationJSONParser.swift in Sources */,
 				0F06696E1FACF6C700FBA8D8 /* ObservationJSONLoader.swift in Sources */,
+				0F0669721FACFD6100FBA8D8 /* FieldSurveyDetailViewController.swift in Sources */,
+				0F0669701FACFD1B00FBA8D8 /* FieldSurveyViewController.swift in Sources */,
 				0F06696A1FAA555300FBA8D8 /* FieldObservation.swift in Sources */,
 				0F0669681FAA515B00FBA8D8 /* Classification.swift in Sources */,
 			);
